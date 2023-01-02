@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=MuseoModerno:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Baloo 2", cursive;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+}
+
+.mainbx {
+  height: 55vh;
+  width: 35%;
+  background-color: hsl(216, 50%, 16%);
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 8px;
+}
+.mainbx h2 {
+  color: white;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 7px;
+  font-family: "MuseoModerno", cursive;
+}
+
+.mainbx #number {
+  width: 100%;
+  height: 7vh;
+  font-size: 1.4rem;
+  outline: none;
+  border-radius: 8px;
+  margin-top: 1vh;
+  padding-left: 3px;
+}
+.generate #copy {
+  display: none;
+  background-color: white;
+  color: black;
+  width: 13%;
+  cursor: pointer;
+  height: 4vh;
+  border-radius: 2px;
+  position: relative;
+  top: -22vh;
+  right: -28.5vw;
+  text-align: center;
+}
+.mainbx h3 {
+  text-align: center;
+  color: white;
+  width: 100%;
+  height: 24vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.mainbx button {
+  outline: none;
+  width: 100%;
+  height: 9vh;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+.mainbx button:hover {
+  background-color: hsl(217, 54%, 11%);
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  .mainbx {
+    width: 70%;
+    height: 60vh;
+  }
+  .mainbx h3 {
+    height: 29vh;
+  }
+  .generate #copy {
+    width: 100%;
+
+    top: -0.1vh;
+    right: -0.5vw;
+
+    margin-bottom: 13px;
+  }
+}
