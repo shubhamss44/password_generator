@@ -1,2 +1,2 @@
 # password_generator
-you can create random passowrd of desired length and copy it to your clipboard.
+you can generate random passowrd of desired length and copy it to your clipboard.
